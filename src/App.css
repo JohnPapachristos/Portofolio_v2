@@ -1,0 +1,120 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+
+* {
+  width: 100%;
+}
+.App {
+  height: 100vh;
+  margin: 0;
+  width: 100%;
+}
+
+.title-header {
+  color: white;
+}
+
+
+body {
+  color:gray;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size:100%;
+  height:100vh;
+}
+
+.link {
+  width: 2%;
+}
+
+.shadow {
+  text-shadow: 14px 23px 4px #CEA12B;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+  width: 100%;
+  margin: auto;
+  border-bottom: 1px solid #EEEEEE;
+  font-size: 18px;
+  padding: 0px 10px;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
+}
+
+.full {
+  height: 100vh;
+  width: 100%;
+}
+
+.logo img{
+  max-width: 10vh;
+  margin-right: 5px;
+}
+
+.navigation .link{
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+.navigation .link.active{
+  color: black;
+  background-color: #EEEEEE;
+  border-radius: 5px;
+  
+}
+
+footer{
+  border-top: 1px solid #EEEEEE;
+  font-size: 18px;
+  height: 5.8vh;
+  padding: 0px 10px;
+  background-color: black;
+}
+
+p {
+  line-height: calc(1ex / 0.32);
+}
+
+.cert {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+  }
+
+@media screen and (max-width: 768px) {
+  .name {
+    display: none;
+  }
+  * {
+    font-size: 85%;
+  }
+  .cert {
+    width: 90%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .experience {
+    font-size: 20px;
+  }
+}
+
+
